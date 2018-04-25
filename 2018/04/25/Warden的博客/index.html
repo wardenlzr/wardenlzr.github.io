@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Warden的博客 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="多读书多看报，少吃零食多睡觉。目前共计 30 篇日志。 在努力，再努力！ (http://blog.csdn.net/qq_30878303/article/details/79651836)[对标小程序 ? “快应用”开发入门指南](http://blog.csdn.net/qq_30878303/article/details/79641831)[重磅！VirtualXposed，让你无需Ro">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Warden的博客">
+<meta property="og:url" content="http://yoursite.com/2018/04/25/Warden的博客/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="多读书多看报，少吃零食多睡觉。目前共计 30 篇日志。 在努力，再努力！ (http://blog.csdn.net/qq_30878303/article/details/79651836)[对标小程序 ? “快应用”开发入门指南](http://blog.csdn.net/qq_30878303/article/details/79641831)[重磅！VirtualXposed，让你无需Ro">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-04-25T06:27:44.903Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Warden的博客">
+<meta name="twitter:description" content="多读书多看报，少吃零食多睡觉。目前共计 30 篇日志。 在努力，再努力！ (http://blog.csdn.net/qq_30878303/article/details/79651836)[对标小程序 ? “快应用”开发入门指南](http://blog.csdn.net/qq_30878303/article/details/79641831)[重磅！VirtualXposed，让你无需Ro">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Warden</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Warden的博客</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="https://avatars2.githubusercontent.com/u/16572346?s=400&u=3d68b0771b27b7f7bfd98a2d0f99ab2b1f5a2817&v=4">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Warden</span>
+                <span class="post-date sub-title">at: 2018-04-25</span>
+            </div>
+            
+                <div>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <p>多读书多看报，少吃零食多睡觉。目前共计 30 篇日志。 在努力，再努力！</p>
+<p>(<a href="http://blog.csdn.net/qq_30878303/article/details/79651836)[对标小程序" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79651836)[对标小程序</a> ? “快应用”开发入门指南]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79641831)[重磅！VirtualXposed，让你无需Root也能使用Xposed框架！]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79641831)[重磅！VirtualXposed，让你无需Root也能使用Xposed框架！]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79639904)[基础知识-Java泛型擦除（简洁明了）]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79639904)[基础知识-Java泛型擦除（简洁明了）]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79624569)[基础知识-Java多线程（volatile" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79624569)[基础知识-Java多线程（volatile</a> 与 synchronized）基础]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79622086)[基础知识-Java的四种引用详解]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79622086)[基础知识-Java的四种引用详解]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79536921)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79536921)[Android</a> 通过配置 productFlavors 实现多版本差异化打包]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79528266)[记录两种Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79528266)[记录两种Android</a> Studio Default Activity Not Found问题解决办法]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79524570)[Flutter入门环境搭建及hello_flutter]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79524570)[Flutter入门环境搭建及hello_flutter]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79471720)[三小时完成玩Android/看妹子客户端（Retrofit" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79471720)[三小时完成玩Android/看妹子客户端（Retrofit</a> + RxJava ＋ OkHttp 附源码）]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79461060)[一小时快速搭建个人博客]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79461060)[一小时快速搭建个人博客]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79390628)[记录一下Android如何获取SHA" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79390628)[记录一下Android如何获取SHA</a> 1值（开发版&amp;发布版），超简洁详细]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79280240)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79280240)[Android</a> 插件化框架 RePlugin 使用技巧避免插件中使用.so产生的冲突]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79279519)[配合BaseRecyclerViewAdapterHelper，实现悬浮吸顶]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79279519)[配合BaseRecyclerViewAdapterHelper，实现悬浮吸顶]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/79107343)[百度地图与百度OCR冲突]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/79107343)[百度地图与百度OCR冲突]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78860947)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78860947)[Android</a> 插件化框架 RePlugin 使用心得]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78432301)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78432301)[Android</a> .9 图重新编辑报错问题]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78352757)[解决华为M2" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78352757)[解决华为M2</a> 平板前置摄像头录制视频黑屏]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78349986)[记录一个" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78349986)[记录一个</a> DELETE_FAILED_INTERNAL_ERROR Error while Installing APK问题]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78296239)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78296239)[Android</a> iconfont 使用]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/78295636)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/78295636)[Android</a> 插件化 RePlugin 入坑记录二]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/76615462)[Android" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/76615462)[Android</a> 插件化 RePlugin 入坑记录一]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/73775528)[2017-06-15T00:00:00+08:00" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/73775528)[2017-06-15T00:00:00+08:00</a> 时间转换]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/69524223)[根据图片路径压缩图片并返回压缩后图片的路径]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/69524223)[根据图片路径压缩图片并返回压缩后图片的路径]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/54286057)[Android调用相机并获取原图Path(非缩略图)[]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/54286057)[Android调用相机并获取原图Path(非缩略图)[]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/51425949)[Volley的简单实用]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/51425949)[Volley的简单实用]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/51382538)[OkHttp2.4.0在AS上使用]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/51382538)[OkHttp2.4.0在AS上使用]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/50907166)[保存Activity的状态（切换横竖屏时）]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/50907166)[保存Activity的状态（切换横竖屏时）]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/50906651)[webview" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/50906651)[webview</a> 跨域问题]<br>(<a href="http://blog.csdn.net/qq_30878303/article/details/50906467)[个人整理的Xutils使用]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/50906467)[个人整理的Xutils使用]</a><br>(<a href="http://blog.csdn.net/qq_30878303/article/details/50906322)[验证手机号码]" target="_blank" rel="noopener">http://blog.csdn.net/qq_30878303/article/details/50906322)[验证手机号码]</a></p>
+
+        </div>
+        <div class="post-reply">
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © John Doe 2018
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>
